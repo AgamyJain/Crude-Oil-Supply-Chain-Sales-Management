@@ -98,7 +98,7 @@ The same project-defined calculation is used for the SQL analysis and Power BI m
 
 ### Findings
 
-- **Buyer contribution:** Bharat Petroleum was the largest buyer by traded quantity at approximately **1.71M MT**, with **$20.86M** in calculated revenue. The five highest-contributing buyers accounted for **47.31% of quantity** when ranked by quantity and **47.48% of calculated revenue** when ranked by revenue.
+- **Buyer contribution:** Bharat Petroleum was the largest buyer by traded quantity at approximately **1.71M MT**, with **$20.86M** in calculated revenue. The five highest-contributing buyers accounted for **47.31% of quantity** when ranked by quantity and **47.14% of calculated revenue** when ranked by revenue.
 - **Supplier contribution:** Saudi Aramco was the largest supplier by quantity at approximately **1.80M MT**, with **$22.39M** in calculated revenue. The top five suppliers accounted for **47.88% of quantity** and **46.16% of calculated revenue**, ranked separately for each metric.
 - **Crude-type performance:** WTI had the highest traded quantity at approximately **3.15M MT**, while Dubai Crude had the highest calculated revenue at approximately **$39.68M**. Dubai Crude's average price was **$93.92/bbl**, compared with **$89.65/bbl** for WTI.
 - **Regional contribution:** India was the largest buyer region, with approximately **5.12M MT** and **$61.19M** in calculated revenue. The USA was the largest supplier region by quantity, with approximately **1.92M MT** and **$23.71M** in calculated revenue.
