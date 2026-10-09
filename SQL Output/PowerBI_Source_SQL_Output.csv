@@ -1,0 +1,201 @@
+Buyer,Supplier,crude_type,quantity_mt,price_per_barrel,transaction_date,Buyer_Region,Supplier_Region
+"Reliance Industries",Petronas,"OPEC Reference Basket",92589.89,103.07,2023-11-13,India,Malaysia
+"Reliance Industries",Lukoil,"West Texas Intermediate (WTI)",25310.55,118.60,2024-08-11,India,Russia
+"Reliance Industries","Saudi Aramco","Bonny Light",134623.81,71.20,2023-08-31,India,"Saudi Arabia"
+"Reliance Industries","TotalEnergies Supply","Dubai Crude",63805.23,63.01,2023-04-13,India,France
+"Reliance Industries",CNPC,"West Texas Intermediate (WTI)",96221.73,119.35,2023-04-14,India,China
+"Reliance Industries","BP Supply","West Texas Intermediate (WTI)",63750.80,95.33,2024-02-22,India,UK
+"Reliance Industries",Pertamina,"West Texas Intermediate (WTI)",114725.19,88.59,2023-10-27,India,Indonesia
+"Reliance Industries","Shell Trading","Bonny Light",137520.24,110.98,2024-01-28,India,Netherlands
+"Reliance Industries","BP Supply","Dubai Crude",109705.43,66.16,2024-05-31,India,UK
+"Reliance Industries",Pertamina,"Brent Crude",35296.15,69.64,2023-02-24,India,Indonesia
+"Reliance Industries","TotalEnergies Supply","Bonny Light",129865.43,60.88,2023-03-21,India,France
+"Reliance Industries","Kuwait Petroleum","OPEC Reference Basket",45437.27,61.47,2023-07-19,India,Kuwait
+"Reliance Industries",CNPC,"Dubai Crude",47711.23,61.91,2024-05-22,India,China
+"Reliance Industries","Chevron Trading","Bonny Light",65439.83,71.57,2023-06-07,India,USA
+"Reliance Industries","BP Supply","OPEC Reference Basket",57162.19,94.32,2023-06-11,India,UK
+"Reliance Industries",CNPC,"West Texas Intermediate (WTI)",25950.54,71.39,2023-06-08,India,China
+"Indian Oil Corporation",Equinor,"Bonny Light",25410.73,74.89,2024-04-05,India,Norway
+"Indian Oil Corporation",Petronas,"West Texas Intermediate (WTI)",42240.64,61.44,2023-02-16,India,Malaysia
+"Indian Oil Corporation","TotalEnergies Supply","Bonny Light",64844.36,60.60,2024-04-02,India,France
+"Indian Oil Corporation","ADNOC Trading",Urals,15280.05,64.73,2023-04-11,India,UAE
+"Indian Oil Corporation","Chevron Trading",Urals,107058.00,110.61,2024-05-03,India,USA
+"Indian Oil Corporation","Shell Trading","West Texas Intermediate (WTI)",65877.30,104.02,2023-02-03,India,Netherlands
+"Indian Oil Corporation","TotalEnergies Supply","West Texas Intermediate (WTI)",134428.99,68.86,2024-03-26,India,France
+"Indian Oil Corporation",CNPC,"Bonny Light",30817.46,85.54,2023-04-14,India,China
+"Indian Oil Corporation","Rosneft Export","OPEC Reference Basket",11116.64,78.51,2023-08-14,India,Russia
+"Indian Oil Corporation",Equinor,"Bonny Light",38124.67,88.80,2023-05-24,India,Norway
+"Indian Oil Corporation","Saudi Aramco","OPEC Reference Basket",27127.70,85.56,2024-05-22,India,"Saudi Arabia"
+"Indian Oil Corporation",Lukoil,"OPEC Reference Basket",79953.09,61.32,2024-05-05,India,Russia
+"Indian Oil Corporation","TotalEnergies Supply","OPEC Reference Basket",98225.32,61.84,2023-04-23,India,France
+"Bharat Petroleum","TotalEnergies Supply","West Texas Intermediate (WTI)",64029.41,70.81,2024-08-02,India,France
+"Bharat Petroleum","BP Supply","Dubai Crude",22774.23,68.78,2023-06-18,India,UK
+"Bharat Petroleum","ADNOC Trading","Dubai Crude",73650.34,99.46,2024-05-15,India,UAE
+"Bharat Petroleum",Pertamina,Urals,13498.62,63.43,2023-06-07,India,Indonesia
+"Bharat Petroleum","ExxonMobil Supply","Dubai Crude",106422.64,96.36,2024-05-24,India,USA
+"Bharat Petroleum","Saudi Aramco","Bonny Light",70704.20,64.23,2023-04-06,India,"Saudi Arabia"
+"Bharat Petroleum","BP Supply","Bonny Light",130999.74,84.40,2023-02-05,India,UK
+"Bharat Petroleum",CNPC,"Brent Crude",65650.83,62.88,2023-09-02,India,China
+"Bharat Petroleum","Shell Trading",Urals,137077.22,61.61,2023-12-06,India,Netherlands
+"Bharat Petroleum",CNPC,"Dubai Crude",31638.24,113.77,2023-09-23,India,China
+"Bharat Petroleum","TotalEnergies Supply","OPEC Reference Basket",125563.34,76.35,2023-09-10,India,France
+"Bharat Petroleum",Lukoil,"Bonny Light",103990.16,97.81,2023-10-21,India,Russia
+"Bharat Petroleum",Pertamina,"Dubai Crude",94614.73,95.15,2024-04-11,India,Indonesia
+"Bharat Petroleum",CNPC,"West Texas Intermediate (WTI)",101809.93,81.16,2023-10-14,India,China
+"Bharat Petroleum","Rosneft Export","Dubai Crude",123085.63,87.59,2023-06-23,India,Russia
+"Bharat Petroleum","Kuwait Petroleum","Dubai Crude",143538.49,117.84,2023-04-14,India,Kuwait
+"Bharat Petroleum",CNPC,"Bonny Light",44592.97,95.42,2023-06-04,India,China
+"Bharat Petroleum",CNPC,Urals,111058.88,102.88,2024-06-01,India,China
+"Bharat Petroleum","Shell Trading","Brent Crude",145426.12,111.57,2024-01-17,India,Netherlands
+"Hindustan Petroleum","BP Supply","Dubai Crude",30292.95,108.18,2023-07-02,India,UK
+"Hindustan Petroleum",CNPC,Urals,16700.33,101.59,2023-04-23,India,China
+"Hindustan Petroleum","Saudi Aramco","OPEC Reference Basket",116974.36,89.31,2023-12-19,India,"Saudi Arabia"
+"Hindustan Petroleum",Equinor,"OPEC Reference Basket",58077.24,101.97,2023-04-25,India,Norway
+"Hindustan Petroleum","TotalEnergies Supply",Urals,137941.36,72.68,2023-05-26,India,France
+"Hindustan Petroleum",Pertamina,"West Texas Intermediate (WTI)",117208.51,105.74,2024-07-19,India,Indonesia
+"Hindustan Petroleum","Saudi Aramco","Bonny Light",119757.46,93.64,2023-03-12,India,"Saudi Arabia"
+"Hindustan Petroleum",Sonatrach,"West Texas Intermediate (WTI)",121513.67,75.81,2023-12-14,India,Algeria
+"Hindustan Petroleum",Pertamina,"Dubai Crude",70887.67,68.22,2023-01-08,India,Indonesia
+"Hindustan Petroleum",Sonatrach,"West Texas Intermediate (WTI)",33002.85,93.04,2023-12-28,India,Algeria
+"Shell India","ADNOC Trading","Bonny Light",25041.52,96.84,2023-10-01,India,UAE
+"Shell India","Saudi Aramco","Brent Crude",136754.75,91.25,2023-02-18,India,"Saudi Arabia"
+"Shell India","Rosneft Export","Brent Crude",135986.92,112.50,2024-04-12,India,Russia
+"Shell India","ExxonMobil Supply","Dubai Crude",54383.98,104.54,2023-11-06,India,USA
+"Shell India","ADNOC Trading","Dubai Crude",109649.33,115.21,2023-06-27,India,UAE
+"Shell India",CNPC,"West Texas Intermediate (WTI)",27729.47,109.24,2024-03-13,India,China
+"Shell India","Shell Trading","Dubai Crude",70209.76,101.42,2023-05-12,India,Netherlands
+"Shell India","TotalEnergies Supply","Bonny Light",17519.38,83.32,2023-05-12,India,France
+"Shell India",Sonatrach,"West Texas Intermediate (WTI)",20374.10,68.66,2023-05-01,India,Algeria
+BP,"BP Supply","West Texas Intermediate (WTI)",138772.99,105.60,2024-06-17,UK,UK
+BP,CNPC,Urals,125746.19,62.91,2023-03-23,UK,China
+BP,Pertamina,Urals,129296.62,89.32,2023-04-25,UK,Indonesia
+BP,CNPC,"Brent Crude",36471.12,102.22,2024-07-15,UK,China
+BP,"BP Supply",Urals,123371.18,115.32,2023-01-04,UK,UK
+BP,Equinor,Urals,140598.62,72.97,2024-04-28,UK,Norway
+BP,"Shell Trading","Brent Crude",90825.71,109.84,2023-05-16,UK,Netherlands
+BP,CNPC,"Bonny Light",83261.79,83.17,2023-02-20,UK,China
+BP,"TotalEnergies Supply","Bonny Light",63800.44,114.93,2023-04-04,UK,France
+BP,Lukoil,"Brent Crude",25156.12,80.80,2023-04-15,UK,Russia
+BP,"Shell Trading","Dubai Crude",80644.27,103.61,2024-06-07,UK,Netherlands
+BP,"Kuwait Petroleum","Brent Crude",37621.14,67.39,2023-04-25,UK,Kuwait
+BP,Petronas,"Brent Crude",133701.98,108.41,2024-02-29,UK,Malaysia
+BP,Equinor,"West Texas Intermediate (WTI)",118980.37,107.31,2023-02-07,UK,Norway
+BP,Sonatrach,"Bonny Light",38003.87,88.72,2023-09-15,UK,Algeria
+BP,"Chevron Trading",Urals,80522.47,92.54,2023-10-01,UK,USA
+BP,"Saudi Aramco","West Texas Intermediate (WTI)",26530.45,81.63,2023-12-28,UK,"Saudi Arabia"
+TotalEnergies,Pertamina,"Bonny Light",27177.25,61.37,2023-06-21,France,Indonesia
+TotalEnergies,CNPC,"Dubai Crude",108791.16,84.66,2023-07-15,France,China
+TotalEnergies,"Saudi Aramco","OPEC Reference Basket",45219.29,93.04,2023-05-14,France,"Saudi Arabia"
+TotalEnergies,Sonatrach,"Brent Crude",15941.39,103.51,2023-01-31,France,Algeria
+TotalEnergies,Sonatrach,"Bonny Light",97814.39,96.20,2024-02-19,France,Algeria
+TotalEnergies,Petronas,"West Texas Intermediate (WTI)",117324.94,112.01,2023-01-02,France,Malaysia
+TotalEnergies,Equinor,"Brent Crude",26642.74,81.15,2023-10-07,France,Norway
+TotalEnergies,Equinor,"OPEC Reference Basket",140730.12,63.77,2024-04-02,France,Norway
+TotalEnergies,"Rosneft Export","West Texas Intermediate (WTI)",39337.26,119.48,2023-12-16,France,Russia
+ExxonMobil,"TotalEnergies Supply","Dubai Crude",97039.47,70.53,2023-08-06,USA,France
+ExxonMobil,"Kuwait Petroleum","West Texas Intermediate (WTI)",149719.20,81.34,2023-01-09,USA,Kuwait
+ExxonMobil,CNPC,"Dubai Crude",28057.15,83.17,2023-06-03,USA,China
+ExxonMobil,"Shell Trading","West Texas Intermediate (WTI)",44042.71,85.06,2024-05-26,USA,Netherlands
+ExxonMobil,"Kuwait Petroleum","Dubai Crude",99795.37,82.87,2023-08-11,USA,Kuwait
+ExxonMobil,"BP Supply","West Texas Intermediate (WTI)",80191.37,96.65,2024-03-31,USA,UK
+ExxonMobil,"TotalEnergies Supply","Bonny Light",11865.74,73.92,2023-03-30,USA,France
+ExxonMobil,Pertamina,"West Texas Intermediate (WTI)",122538.77,81.18,2023-01-09,USA,Indonesia
+ExxonMobil,"Saudi Aramco",Urals,136225.27,110.05,2023-04-02,USA,"Saudi Arabia"
+ExxonMobil,Equinor,"Dubai Crude",133785.84,105.92,2023-08-28,USA,Norway
+ExxonMobil,Pertamina,"Dubai Crude",36986.39,94.35,2023-08-20,USA,Indonesia
+Chevron,"ExxonMobil Supply","Brent Crude",130875.96,67.20,2024-07-14,USA,USA
+Chevron,"Saudi Aramco",Urals,133503.79,71.50,2023-06-16,USA,"Saudi Arabia"
+Chevron,"BP Supply","Dubai Crude",113053.52,104.14,2024-07-03,USA,UK
+Chevron,"ADNOC Trading","West Texas Intermediate (WTI)",93278.11,81.35,2024-05-14,USA,UAE
+Chevron,"Shell Trading","West Texas Intermediate (WTI)",34946.38,77.88,2024-07-01,USA,Netherlands
+Chevron,Lukoil,"Dubai Crude",22138.40,73.31,2023-09-01,USA,Russia
+Chevron,CNPC,"West Texas Intermediate (WTI)",51395.21,62.66,2023-02-15,USA,China
+Chevron,Lukoil,"OPEC Reference Basket",54342.45,115.21,2024-03-13,USA,Russia
+Chevron,Equinor,"OPEC Reference Basket",69658.25,96.88,2023-11-05,USA,Norway
+Chevron,"Kuwait Petroleum","Dubai Crude",68035.69,70.72,2024-01-26,USA,Kuwait
+"Phillips 66","Saudi Aramco",Urals,95374.59,80.87,2023-09-19,USA,"Saudi Arabia"
+"Phillips 66","Rosneft Export","Bonny Light",95235.12,84.57,2023-04-15,USA,Russia
+"Phillips 66","Chevron Trading","West Texas Intermediate (WTI)",40976.80,92.40,2023-12-12,USA,USA
+"Phillips 66","BP Supply","Dubai Crude",54741.15,119.28,2023-07-28,USA,UK
+"Phillips 66","TotalEnergies Supply","Dubai Crude",72140.90,66.53,2023-10-23,USA,France
+"Phillips 66","Saudi Aramco","Bonny Light",139972.82,94.35,2023-12-18,USA,"Saudi Arabia"
+"Phillips 66","Kuwait Petroleum","Brent Crude",14363.97,67.41,2023-09-26,USA,Kuwait
+"Phillips 66",Lukoil,"Bonny Light",149220.73,114.98,2024-04-29,USA,Russia
+"Phillips 66","Shell Trading","Brent Crude",13785.81,74.42,2023-07-27,USA,Netherlands
+"Phillips 66","Saudi Aramco","Brent Crude",74165.08,83.77,2023-04-02,USA,"Saudi Arabia"
+"Phillips 66","Chevron Trading",Urals,105293.89,98.38,2024-02-16,USA,USA
+"Phillips 66","Kuwait Petroleum","Bonny Light",66800.33,87.81,2024-02-29,USA,Kuwait
+"Phillips 66","Saudi Aramco","Bonny Light",62218.27,113.80,2023-11-28,USA,"Saudi Arabia"
+"Phillips 66",Pertamina,"Dubai Crude",58753.52,102.59,2023-08-26,USA,Indonesia
+"Phillips 66","TotalEnergies Supply","Brent Crude",15302.27,95.04,2023-12-04,USA,France
+"Phillips 66",Petronas,"Dubai Crude",75279.55,93.50,2024-01-30,USA,Malaysia
+"Phillips 66",Sonatrach,"OPEC Reference Basket",16190.63,113.09,2023-01-18,USA,Algeria
+PetroChina,"BP Supply",Urals,93735.66,75.63,2023-03-16,China,UK
+PetroChina,"TotalEnergies Supply","Bonny Light",32111.99,89.35,2024-04-10,China,France
+PetroChina,"Rosneft Export","Brent Crude",90913.14,118.08,2023-08-19,China,Russia
+PetroChina,"BP Supply","Dubai Crude",43749.04,119.01,2023-04-06,China,UK
+PetroChina,"Shell Trading",Urals,23914.81,71.52,2023-10-10,China,Netherlands
+PetroChina,"Saudi Aramco","Dubai Crude",134701.23,118.99,2023-11-12,China,"Saudi Arabia"
+PetroChina,"ExxonMobil Supply","OPEC Reference Basket",21799.16,98.73,2023-11-11,China,USA
+PetroChina,"Rosneft Export","OPEC Reference Basket",23079.36,73.86,2023-06-08,China,Russia
+PetroChina,"Chevron Trading","Brent Crude",68239.59,60.51,2024-07-08,China,USA
+PetroChina,"ADNOC Trading","Brent Crude",93411.60,113.88,2023-05-07,China,UAE
+PetroChina,"Kuwait Petroleum","West Texas Intermediate (WTI)",13922.34,67.40,2024-05-18,China,Kuwait
+PetroChina,Lukoil,"OPEC Reference Basket",80473.24,103.38,2023-12-29,China,Russia
+PetroChina,"ADNOC Trading","Bonny Light",145024.85,92.35,2023-01-24,China,UAE
+Sinopec,"ExxonMobil Supply","West Texas Intermediate (WTI)",53344.87,96.44,2023-01-03,China,USA
+Sinopec,"TotalEnergies Supply","West Texas Intermediate (WTI)",29096.34,92.05,2023-11-08,China,France
+Sinopec,"Saudi Aramco","Dubai Crude",142419.24,74.18,2023-12-13,China,"Saudi Arabia"
+Sinopec,Pertamina,"West Texas Intermediate (WTI)",145189.11,103.21,2023-05-10,China,Indonesia
+Sinopec,Equinor,"Bonny Light",111167.56,80.00,2023-02-05,China,Norway
+Sinopec,"Shell Trading","Bonny Light",21785.35,102.35,2023-01-09,China,Netherlands
+Sinopec,"ExxonMobil Supply","West Texas Intermediate (WTI)",67569.10,111.17,2024-02-24,China,USA
+Sinopec,Sonatrach,"OPEC Reference Basket",110038.19,90.32,2023-07-15,China,Algeria
+Sinopec,Lukoil,"West Texas Intermediate (WTI)",14885.73,81.32,2023-05-03,China,Russia
+Sinopec,"ExxonMobil Supply","OPEC Reference Basket",107571.93,90.53,2023-07-17,China,USA
+Sinopec,CNPC,"West Texas Intermediate (WTI)",19600.62,62.49,2023-11-19,China,China
+Sinopec,Lukoil,"West Texas Intermediate (WTI)",18035.48,60.65,2023-06-22,China,Russia
+Rosneft,Lukoil,Urals,20484.68,115.43,2024-07-24,Russia,Russia
+Rosneft,"TotalEnergies Supply","Brent Crude",133166.34,69.47,2023-01-16,Russia,France
+Rosneft,Petronas,"Bonny Light",15289.41,110.72,2024-01-31,Russia,Malaysia
+Rosneft,"ADNOC Trading","Brent Crude",118479.88,108.39,2023-02-10,Russia,UAE
+Rosneft,"ExxonMobil Supply","Bonny Light",23348.90,70.35,2024-02-03,Russia,USA
+Rosneft,Petronas,"West Texas Intermediate (WTI)",110408.49,97.61,2023-11-01,Russia,Malaysia
+Rosneft,"Chevron Trading","Brent Crude",95532.10,65.99,2024-07-19,Russia,USA
+Rosneft,"Chevron Trading","Brent Crude",101069.88,83.14,2023-05-09,Russia,USA
+Rosneft,"Kuwait Petroleum","West Texas Intermediate (WTI)",65458.76,97.76,2024-08-10,Russia,Kuwait
+Rosneft,"BP Supply","West Texas Intermediate (WTI)",104925.98,69.98,2023-02-07,Russia,UK
+Rosneft,"Shell Trading","OPEC Reference Basket",23360.08,68.19,2024-02-03,Russia,Netherlands
+Rosneft,"Chevron Trading","West Texas Intermediate (WTI)",93499.61,85.24,2023-07-28,Russia,USA
+Rosneft,"BP Supply","West Texas Intermediate (WTI)",138736.93,83.73,2023-06-07,Russia,UK
+Rosneft,"Chevron Trading","Brent Crude",94485.25,88.21,2023-12-29,Russia,USA
+Rosneft,"TotalEnergies Supply","West Texas Intermediate (WTI)",71786.73,94.97,2023-04-01,Russia,France
+Rosneft,Pertamina,"Bonny Light",123242.65,75.25,2024-08-14,Russia,Indonesia
+Rosneft,Pertamina,"Bonny Light",54189.15,92.02,2024-02-23,Russia,Indonesia
+Rosneft,"ExxonMobil Supply","West Texas Intermediate (WTI)",43836.14,101.25,2023-06-23,Russia,USA
+Eni,"Saudi Aramco","Dubai Crude",124240.37,117.13,2024-03-18,Italy,"Saudi Arabia"
+Eni,"ExxonMobil Supply","West Texas Intermediate (WTI)",20090.17,96.98,2023-07-14,Italy,USA
+Eni,Equinor,"Bonny Light",13205.05,73.62,2024-03-05,Italy,Norway
+Eni,Pertamina,"Bonny Light",40716.02,90.74,2023-10-04,Italy,Indonesia
+Eni,CNPC,Urals,121092.33,73.18,2024-05-18,Italy,China
+Eni,Pertamina,"West Texas Intermediate (WTI)",11181.58,108.38,2023-10-29,Italy,Indonesia
+Eni,"Chevron Trading","OPEC Reference Basket",75196.05,77.01,2024-01-15,Italy,USA
+Eni,"TotalEnergies Supply","OPEC Reference Basket",27381.56,83.26,2023-08-07,Italy,France
+Eni,"Rosneft Export","Bonny Light",102238.91,85.24,2023-02-02,Italy,Russia
+Eni,CNPC,"Brent Crude",92006.41,83.29,2024-04-26,Italy,China
+Eni,Lukoil,"Brent Crude",133390.52,77.40,2023-03-26,Italy,Russia
+Eni,"TotalEnergies Supply",Urals,60894.79,111.59,2023-04-06,Italy,France
+Eni,"ADNOC Trading","Brent Crude",108820.59,107.58,2024-02-28,Italy,UAE
+Eni,"Chevron Trading","Dubai Crude",121866.85,115.41,2024-08-03,Italy,USA
+Eni,"ExxonMobil Supply","Dubai Crude",97152.29,111.11,2023-08-24,Italy,USA
+Eni,Sonatrach,"Brent Crude",55228.77,92.22,2023-11-20,Italy,Algeria
+Eni,"Kuwait Petroleum","OPEC Reference Basket",122327.04,86.53,2024-08-11,Italy,Kuwait
+"ADNOC Distribution",Pertamina,"Brent Crude",63943.40,103.78,2023-09-11,UAE,Indonesia
+"ADNOC Distribution","Chevron Trading",Urals,148698.12,84.76,2023-07-31,UAE,USA
+"ADNOC Distribution",Pertamina,Urals,136724.24,97.58,2024-07-20,UAE,Indonesia
+"ADNOC Distribution","Saudi Aramco","OPEC Reference Basket",32284.70,71.52,2023-10-28,UAE,"Saudi Arabia"
+"ADNOC Distribution",Sonatrach,"Dubai Crude",146464.65,82.93,2023-07-03,UAE,Algeria
+"ADNOC Distribution","Saudi Aramco","Dubai Crude",43797.75,113.43,2024-03-31,UAE,"Saudi Arabia"
+"ADNOC Distribution","TotalEnergies Supply","Brent Crude",44695.67,65.76,2024-05-12,UAE,France
+"ADNOC Distribution",Petronas,"OPEC Reference Basket",29427.50,99.35,2023-11-08,UAE,Malaysia
+"ADNOC Distribution",Pertamina,"West Texas Intermediate (WTI)",13089.04,96.67,2023-05-23,UAE,Indonesia
