@@ -228,7 +228,7 @@ The dashboard is designed to compare related metrics together rather than relyin
 ### 1. Buyer Contribution
 
 - Bharat Petroleum was the largest buyer by traded quantity, contributing approximately **1.71 million MT** and **$20.86 million** in calculated revenue.
-- The top five buyers accounted for **47.31% of total traded quantity** when ranked by quantity and **47.48% of calculated revenue** when ranked by revenue.
+- The top five buyers accounted for **47.31% of total traded quantity** when ranked by quantity and **47.14% of calculated revenue** when ranked by revenue.
 
 **Interpretation:** A relatively small group of buyers accounts for nearly half of the trading activity represented in the dataset.
 
