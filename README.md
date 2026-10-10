@@ -347,12 +347,17 @@ The `Case Study.docx` file contains the project case study and business question
 
 **Agamya Jain**
 
-Data Analyst Portfolio Project
+- GitHub: [@AgamyJain](https://github.com/AgamyJain)
+- LinkedIn: [in/agamya-jain](https://www.linkedin.com/in/agamya-jain)
 
----
 
 <p align="center">
   <strong>Crude Oil Trading Performance & Supply Chain Analysis</strong>
   <br>
   SQL • Power BI • DAX • Business Insights
 </p>
+---
+
+[← Back to repository root](https://github.com/AgamyJain/Crude-Oil-Supply-Chain-Sales-Management/blob/main/README.md)
+
+---
