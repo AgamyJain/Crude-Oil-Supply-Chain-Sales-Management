@@ -1,56 +1,119 @@
+
 # Crude Oil Trading Performance & Supply Chain Analysis
 
-**SQL and Power BI portfolio project | MySQL · Power BI · DAX**
+<p align="center">
+  <img src="https://img.shields.io/badge/MySQL-SQL%20Analysis-4479A1?logo=mysql&logoColor=white" alt="MySQL">
+  <img src="https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi&logoColor=black" alt="Power BI">
+  <img src="https://img.shields.io/badge/DAX-Measures-512BD4" alt="DAX">
+  <img src="https://img.shields.io/badge/Status-Completed-green" alt="Status">
+</p>
 
-This project analyzes 200 crude oil transactions from **January 2023 to August 2024**. It combines transaction, buyer, and supplier data to examine trading quantity, project-calculated revenue, average price, participant contribution, crude-type performance, regional distribution, and monthly trends.
+<p align="center">
+  <strong>A SQL and Power BI portfolio project analyzing crude oil trading performance, participant contribution, crude types, regional distribution, and trading trends.</strong>
+  <br>
+  The project combines transaction, buyer, and supplier data to generate business-focused insights from 200 crude oil trading records covering January 2023 to August 2024.
+</p>
 
-> **Metric note:** “Calculated Revenue” is a project-defined metric calculated as `(quantity_mt × price_per_barrel) / 7.33`. It is not profit, and the analysis does not establish profitability because cost and margin data are not available.
+---
 
-## Contents
+## 📑 Table of Contents
 
-- [Business questions](#business-questions)
-- [Dataset overview](#dataset-overview)
-- [Project structure](#project-structure)
+- [About This Project](#about-this-project)
+- [Problem Statement](#problem-statement)
+- [Business Questions](#business-questions)
+- [Dataset Overview](#dataset-overview)
+- [Project Structure](#project-structure)
 - [Methodology](#methodology)
-- [Key results](#key-results)
-- [Power BI dashboard](#power-bi-dashboard)
-- [Recommendations](#business-recommendations)
-- [Tools used](#tools-used)
-- [How to review the project](#how-to-review-the-project)
+  - [1. SQL Data Preparation](#1-sql-data-preparation)
+  - [2. SQL Business Analysis](#2-sql-business-analysis)
+  - [3. KPI Calculation](#3-kpi-calculation)
+  - [4. Power BI Dashboard](#4-power-bi-dashboard)
+- [Key Findings](#key-findings)
+- [Business Recommendations](#business-recommendations)
+- [Technical Specifications](#technical-specifications)
+- [How to Review the Project](#how-to-review-the-project)
 - [Limitations](#limitations)
+- [Author](#author)
 
-## Business questions
+---
 
-1. Which buyers and suppliers contribute the most to trading activity in terms of traded quantity and calculated revenue?
-2. Which crude oil types have the greatest commercial contribution, and how do their pricing levels differ?
-3. Which buyer and supplier regions account for the largest share of trading activity?
-4. How does crude oil trading activity change over time, and which periods show notable changes?
-5. What is the overall trading performance in terms of transaction count, quantity, average price, and calculated revenue?
+## About This Project
 
-## Dataset overview
+This project analyzes crude oil trading activity using SQL for data preparation and business analysis and Power BI for interactive visualization.
 
-The project uses three CSV datasets:
+The analysis focuses on the contribution of buyers and suppliers, crude type performance, buyer and supplier regions, and changes in trading activity over time.
 
-| File | Contents |
+The project demonstrates:
+
+- **SQL data preparation:** Combining transaction, buyer, and supplier data using joins.
+- **Business-oriented SQL analysis:** Answering five defined business questions through analytical queries.
+- **KPI calculation:** Evaluating traded quantity, calculated revenue, average price, and transaction count.
+- **Power BI reporting:** Presenting key metrics and comparisons through a three-page dashboard.
+- **Business interpretation:** Translating observed patterns into practical recommendations while acknowledging data limitations.
+
+---
+
+## Problem Statement
+
+Crude oil trading performance can vary across buyers, suppliers, crude types, regions, and time periods. Examining only one metric, such as traded quantity or average price, may not provide a complete view of trading activity.
+
+This project uses transaction-level data to evaluate trading contribution and identify patterns across participants, crude types, geography, and time.
+
+The analysis is designed to answer the following business questions.
+
+---
+
+## Business Questions
+
+1. **Buyer and Supplier Contribution:** Which buyers and suppliers contribute the most to crude oil trading activity in terms of traded quantity and calculated revenue?
+2. **Crude Type Performance:** Which crude oil types have the greatest commercial contribution, and how do pricing levels differ?
+3. **Regional Contribution:** Which buyer and supplier regions account for the largest share of trading activity?
+4. **Trading Trends:** How does crude oil trading activity change over time, and which periods show notable changes?
+5. **Overall Performance:** What is the overall trading performance in terms of transactions, quantity, average price, and calculated revenue?
+
+---
+
+## Dataset Overview
+
+The project uses three source CSV files.
+
+| Dataset | Description |
 |---|---|
-| `buyers_data.csv` | Buyer/company details, region, and headquarters |
-| `suppliers_data.csv` | Supplier/company details, region, and headquarters |
-| `transaction_data.csv` | 200 transactions, including buyer/supplier IDs, crude type, quantity, price, and date |
+| `transaction_data.csv` | Transaction-level trading records, including crude type, quantity, price, date, and related identifiers |
+| `buyers_data.csv` | Buyer details and buyer-region information |
+| `suppliers_data.csv` | Supplier details and supplier-region information |
 
-The SQL preparation query joins the transaction, buyer, and supplier tables to create a consolidated, transaction-level source for Power BI. The consolidated output contains **200 rows** and includes buyer and supplier names and regions. The transaction ID is retained in the raw transactions dataset but is not included in the consolidated analytical output because it is not used in the dashboard analysis.
+### Dataset Summary
 
-## Project structure
+| Attribute | Details |
+|---|---|
+| Analysis period | January 2023 – August 2024 |
+| Transaction records | 200 |
+| Buyer records | 15 |
+| Supplier records | 15 |
+| Source format | CSV |
+| SQL preparation output | `PowerBI_Source_SQL_Output.csv` |
+
+The consolidated SQL output combines the relevant transaction, buyer, supplier, and regional fields required for the analysis. The transaction ID is retained in the raw transaction dataset but is not included in the consolidated analytical output because it is not used in the dashboard analysis.
+
+---
+
+## Project Structure
 
 ```text
 Crude Oil Supply Chain & Sales Management/
+│
 ├── Case Study.docx
+│
 ├── Dataset/
 │   ├── buyers_data.csv
 │   ├── suppliers_data.csv
 │   └── transaction_data.csv
+│
 ├── SQL/
 │   ├── 01_PowerBI_Source_Preparation.sql
 │   └── 02_Crude_Oil_Supply_Chain_Analysis.sql
+│
 ├── SQL Output/
 │   ├── PowerBI_Source_SQL_Output.csv
 │   ├── Q01_Buyer_Supplier_Performance.csv
@@ -58,106 +121,238 @@ Crude Oil Supply Chain & Sales Management/
 │   ├── Q03_Regional_Performance.csv
 │   ├── Q04_Monthly_Trading_Trend.csv
 │   └── Q05_Overall_Transaction_Performance.csv
+│
 ├── Power BI/
 │   ├── Crude_Oil_Supply_Chain_Sales_Analysis.pbix
 │   └── Crude_Oil_Supply_Chain_Sales_Analysis.pdf
+│
 ├── Screenshots/
 │   ├── Page_1_Executive_Overview.PNG
 │   ├── Page_2_Buyer_Supplier_Performance.PNG
 │   └── Page_3_Crude_Regional_Trend_Analysis.PNG
+│
 ├── Documentation/
 │   ├── Crude_Oil_Trading_Performance_Supply_Chain_Analysis_Report.docx
 │   └── Crude_Oil_Trading_Performance_Supply_Chain_Analysis_Report.pdf
+│
 └── README.md
 ```
 
+---
+
 ## Methodology
 
-1. **Prepare the source in SQL:** join transactions to buyer and supplier details, adding names and regions.
-2. **Answer the business questions in SQL:** aggregate transaction count, traded quantity, average price, and calculated revenue for participants, crude types, regions, monthly trends, and overall performance.
-3. **Build the Power BI dashboard:** use the consolidated SQL output as the source and present overview KPIs, participant comparisons, regional views, crude-type performance, and trends.
-4. **Translate results into business insights:** compare quantity and calculated revenue together, consider price alongside volume, and identify concentration patterns.
+### 1. SQL Data Preparation
 
-### Calculated revenue formula
+The first SQL script prepares a consolidated transaction-level dataset by joining transaction data with buyer and supplier information.
+
+The preparation process:
+
+- Combines relevant transaction, buyer, and supplier information.
+- Adds buyer and supplier region details.
+- Produces a consolidated CSV for use as the Power BI data source.
+
+**Output:** `PowerBI_Source_SQL_Output.csv`
+
+### 2. SQL Business Analysis
+
+The second SQL script contains analytical queries organized around the five business questions.
+
+| Query Output | Purpose |
+|---|---|
+| `Q01_Buyer_Supplier_Performance.csv` | Compares buyer and supplier contributions |
+| `Q02_Crude_Type_Performance.csv` | Evaluates crude types by trading metrics |
+| `Q03_Regional_Performance.csv` | Compares buyer- and supplier-region activity |
+| `Q04_Monthly_Trading_Trend.csv` | Examines monthly trading patterns |
+| `Q05_Overall_Transaction_Performance.csv` | Summarizes overall trading performance |
+
+The consolidated Power BI source is kept separately from the five analytical outputs because it serves a different purpose: supplying the dashboard's underlying data.
+
+### 3. KPI Calculation
+
+The project uses four core performance indicators:
+
+| KPI | Description |
+|---|---|
+| Total Transactions | Number of transaction records |
+| Total Quantity Traded | Sum of traded quantity, measured in metric tonnes (MT) |
+| Average Price | Average recorded price per barrel, in USD |
+| Calculated Revenue | Project-defined revenue metric calculated using the formula below |
+
+### Revenue Formula
 
 ```sql
 SUM((quantity_mt * price_per_barrel) / 7.33)
 ```
 
-The same project-defined calculation is used for the SQL analysis and Power BI measure.
+This project-defined formula is used in the SQL analysis and Power BI calculations.
 
-## Key results
+**Important:** Calculated revenue should not be interpreted as profit. Operating costs, procurement costs, transportation costs, and profit margins are not available in the dataset.
 
-| Metric | Result |
-|---|---:|
-| Total transactions | 200 |
-| Total quantity traded | 15.19M MT |
-| Average price | $88.90/bbl |
-| Calculated revenue | $186.44M |
-| Analysis period | Jan 2023 – Aug 2024 |
+### 4. Power BI Dashboard
 
-### Findings
+The dashboard contains three pages designed for different analytical perspectives.
 
-- **Buyer contribution:** Bharat Petroleum was the largest buyer by traded quantity at approximately **1.71M MT**, with **$20.86M** in calculated revenue. The five highest-contributing buyers accounted for **47.31% of quantity** when ranked by quantity and **47.14% of calculated revenue** when ranked by revenue.
-- **Supplier contribution:** Saudi Aramco was the largest supplier by quantity at approximately **1.80M MT**, with **$22.39M** in calculated revenue. The top five suppliers accounted for **47.88% of quantity** and **46.16% of calculated revenue**, ranked separately for each metric.
-- **Crude-type performance:** WTI had the highest traded quantity at approximately **3.15M MT**, while Dubai Crude had the highest calculated revenue at approximately **$39.68M**. Dubai Crude's average price was **$93.92/bbl**, compared with **$89.65/bbl** for WTI.
-- **Regional contribution:** India was the largest buyer region, with approximately **5.12M MT** and **$61.19M** in calculated revenue. The USA was the largest supplier region by quantity, with approximately **1.92M MT** and **$23.71M** in calculated revenue.
-- **Monthly activity:** April 2023 had the highest transaction count (**19**), traded quantity (**1.33M MT**), and calculated revenue (**$17.16M**) in the observed period.
-- **Price versus quantity:** June 2024 had the highest monthly average price (**$104.03/bbl**), but traded quantity was approximately **0.33M MT** and calculated revenue was **$4.70M**.
+#### Page 1 — Executive Overview
 
-## Power BI dashboard
+Provides a high-level summary of trading performance through KPI cards for total transactions, traded quantity, calculated revenue, and average price. It also includes a monthly calculated revenue trend, the top five buyers by traded quantity, and crude type volume share.
 
-The dashboard has three pages. Open the `.pbix` file in Power BI Desktop to explore the report interactively.
+#### Page 2 — Buyer & Supplier Performance
 
-### Page 1 — Executive Overview
+Compares buyer and supplier contributions using traded quantity and calculated revenue. Slicers allow users to explore buyers, suppliers, and their respective regions.
 
-Shows total transactions, traded quantity, calculated revenue, average price, monthly revenue trend, top five buyers by quantity, and crude-type share by quantity.
+#### Page 3 — Crude, Regional & Trend Analysis
 
-![Page 1 — Executive Overview](Screenshots/Page_1_Executive_Overview.PNG)
+Examines buyer- and supplier-region contributions, monthly trading quantity alongside average price, and crude type performance.
 
-### Page 2 — Buyer & Supplier Performance
+The dashboard is designed to compare related metrics together rather than relying on a single indicator.
 
-Compares buyer and supplier quantity and calculated revenue. Slicers allow analysis by buyer, buyer region, supplier, and supplier region.
+### Dashboard Screenshots
 
-![Page 2 — Buyer & Supplier Performance](Screenshots/Page_2_Buyer_Supplier_Performance.PNG)
+**Executive Overview**
 
-### Page 3 — Crude, Regional & Trend Analysis
+![Executive Overview](Screenshots/Page_1_Executive_Overview.PNG)
 
-Compares buyer- and supplier-region contribution, monthly quantity alongside average price, and crude-type performance.
+**Buyer & Supplier Performance**
 
-![Page 3 — Crude, Regional & Trend Analysis](Screenshots/Page_3_Crude_Regional_Trend_Analysis.PNG)
+![Buyer and Supplier Performance](Screenshots/Page_2_Buyer_Supplier_Performance.PNG)
 
-## Business recommendations
+**Crude, Regional & Trend Analysis**
 
-1. **Manage participant concentration:** maintain strong relationships with major contributors while retaining alternative buyers and suppliers.
-2. **Evaluate crude types using multiple measures:** review traded quantity, calculated revenue, and average price together rather than relying on quantity alone.
-3. **Monitor regional concentration:** review the high share of buyer activity associated with India while maintaining geographic diversity on the supply side.
-4. **Track price and quantity together:** a high average price does not necessarily mean high calculated revenue when traded quantity is low.
-
-## Tools used
-
-- **MySQL:** joins, aggregations, and business-question analysis
-- **Power BI:** interactive dashboard and visual analysis
-- **DAX:** KPI and calculated-revenue measures
-- **CSV:** source data and SQL result outputs
-- **Word/PDF:** case study and project documentation
-
-## How to review the project
-
-1. Read `Case Study.docx` for the scenario, objectives, business questions, and assumptions.
-2. Review the SQL scripts in `SQL/`.
-3. Inspect the five analytical result files and the consolidated Power BI source in `SQL Output/`.
-4. Open `Power BI/Crude_Oil_Supply_Chain_Sales_Analysis.pbix` in Power BI Desktop, or view the supplied PDF export.
-5. Review the three screenshots and the full report in `Documentation/`.
-
-## Limitations
-
-- The analysis covers only the 200 transactions supplied for January 2023 to August 2024.
-- The dataset does not include operating or transport costs, procurement costs, profit margins, contract terms, delivery lead times, or supplier-quality measures.
-- Calculated revenue is a project-defined metric and should not be described as profit.
-- Findings and recommendations are limited to the patterns visible in the available fields and records.
+![Crude, Regional and Trend Analysis](Screenshots/Page_3_Crude_Regional_Trend_Analysis.PNG)
 
 ---
 
-**Author:** Agamya Jain  
-**Project:** Crude Oil Trading Performance & Supply Chain Analysis
+## Key Findings
+
+### 1. Buyer Contribution
+
+- Bharat Petroleum was the largest buyer by traded quantity, contributing approximately **1.71 million MT** and **$20.86 million** in calculated revenue.
+- The top five buyers accounted for **47.31% of total traded quantity** when ranked by quantity and **47.48% of calculated revenue** when ranked by revenue.
+
+**Interpretation:** A relatively small group of buyers accounts for nearly half of the trading activity represented in the dataset.
+
+### 2. Supplier Contribution
+
+- Saudi Aramco was the largest supplier by traded quantity, contributing approximately **1.80 million MT** and **$22.39 million** in calculated revenue.
+- The top five suppliers accounted for **47.88% of total traded quantity** and **46.16% of calculated revenue**, with rankings determined separately for each metric.
+
+**Interpretation:** Supplier contribution is concentrated among leading participants, while activity remains distributed across multiple suppliers.
+
+### 3. Crude Type Performance
+
+- West Texas Intermediate (WTI) recorded the highest traded quantity at approximately **3.15 million MT**.
+- Dubai Crude generated the highest calculated revenue at approximately **$39.68 million**.
+- Dubai Crude's average recorded price was **$93.92/bbl**, compared with **$89.65/bbl** for WTI.
+
+**Interpretation:** The crude type with the highest traded quantity is not necessarily the one with the highest calculated revenue. Price levels also affect the comparison.
+
+### 4. Regional Contribution
+
+- India was the largest buyer region, with approximately **5.12 million MT** and **$61.19 million** in calculated revenue.
+- India represented **33.67% of total traded quantity** and **32.82% of calculated revenue**.
+- The USA was the largest supplier region by quantity, accounting for approximately **12.67% of total traded quantity** and **12.72% of calculated revenue**.
+
+**Interpretation:** Buyer activity was more geographically concentrated than supplier activity in this dataset.
+
+### 5. Trading Trends
+
+- April 2023 recorded the highest monthly transaction count (**19 transactions**), traded quantity (approximately **1.33 million MT**), and calculated revenue (approximately **$17.16 million**).
+- June 2024 recorded the highest monthly average price at **$104.03/bbl**, while traded quantity was approximately **0.33 million MT** and calculated revenue was approximately **$4.70 million**.
+
+**Interpretation:** A high average price does not automatically translate into high calculated revenue when traded quantity is low.
+
+### Overall KPI Summary
+
+| Metric | Result |
+|---|---:|
+| Total Transactions | 200 |
+| Total Quantity Traded | 15.19 million MT |
+| Calculated Revenue | $186.44 million |
+| Average Price | $88.90/bbl |
+| Analysis Period | January 2023 – August 2024 |
+
+---
+
+## Business Recommendations
+
+1. **Manage participant concentration:** Maintain strong relationships with high-contribution buyers and suppliers while retaining alternative trading relationships.
+2. **Evaluate crude types using multiple metrics:** Compare traded quantity, calculated revenue, and average price together rather than relying on volume alone.
+3. **Monitor regional concentration:** Track buyer and supplier region contributions and evaluate opportunities to diversify trading relationships where appropriate.
+4. **Track price and quantity jointly:** Review average price alongside traded quantity and calculated revenue to avoid drawing conclusions from price movements alone.
+
+These recommendations reflect patterns observed in the available dataset and are not a substitute for profitability or operational analysis.
+
+---
+
+## Technical Specifications
+
+| Component | Technology / Approach |
+|---|---|
+| Data input | CSV files |
+| Data preparation | SQL joins |
+| Business analysis | SQL aggregation, grouping, and analytical queries |
+| Dashboard | Microsoft Power BI |
+| Measures | DAX |
+| Output formats | CSV, PBIX, PDF, DOCX, Markdown |
+| Analysis type | Descriptive and exploratory business analysis |
+
+---
+
+## How to Review the Project
+
+### 1. Review the Source Data
+
+Open the files in `Dataset/` to inspect the transaction, buyer, and supplier data.
+
+### 2. Review the SQL Scripts
+
+Open the scripts in `SQL/` in a compatible SQL environment.
+
+- Run `01_PowerBI_Source_Preparation.sql` to prepare the consolidated analytical dataset.
+- Run `02_Crude_Oil_Supply_Chain_Analysis.sql` to review the analytical queries answering the five business questions.
+
+The scripts may require the corresponding source tables to be imported and the database/schema references to be configured for your environment.
+
+### 3. Review the SQL Outputs
+
+Inspect the consolidated Power BI source and the five business-question CSV files in `SQL Output/`.
+
+### 4. Open the Power BI Dashboard
+
+Open `Power BI/Crude_Oil_Supply_Chain_Sales_Analysis.pbix` using Microsoft Power BI Desktop.
+
+If required, update the data source path to match your local copy of `PowerBI_Source_SQL_Output.csv`, then refresh the data.
+
+### 5. Read the Documentation
+
+The `Documentation/` folder contains the project report in DOCX and PDF formats, describing the business context, approach, findings, recommendations, and limitations.
+
+The `Case Study.docx` file contains the project case study and business questions.
+
+---
+
+## Limitations
+
+- **Dataset scope:** The analysis covers 200 transaction records from January 2023 to August 2024.
+- **Calculated revenue:** Revenue uses the project's defined formula and conversion factor; it is not a measure of profit.
+- **Cost information:** Operating, procurement, and transportation costs and profit margins are not provided.
+- **Operational information:** Contract terms, delivery lead times, supplier quality, and other operational measures are unavailable.
+- **Interpretation:** Findings describe patterns in the supplied dataset and should not automatically be generalized to the entire crude oil industry.
+- **Data provenance:** The repository uses the supplied project datasets; external data validation is outside the scope of this analysis.
+
+---
+
+## Author
+
+**Agamya Jain**
+
+Data Analyst Portfolio Project
+
+---
+
+<p align="center">
+  <strong>Crude Oil Trading Performance & Supply Chain Analysis</strong>
+  <br>
+  SQL • Power BI • DAX • Business Insights
+</p>
