@@ -358,6 +358,6 @@ The `Case Study.docx` file contains the project case study and business question
 </p>
 ---
 
-[← Back to repository root](https://github.com/AgamyJain/Crude-Oil-Supply-Chain-Sales-Management/blob/main/README.md)
+[← Back to repository root](https://github.com/AgamyJain/Crude-Oil-Supply-Chain-Sales-Management/tree/main?tab=readme-ov-file#readme-ov-file)
 
 ---
